@@ -1,0 +1,20 @@
+{
+  "name": "gumboball",
+  "version": "1.0.0",
+  "description": "GumboBall dice game with real-time tally display",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": ["dice", "game", "websocket", "gumbo"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

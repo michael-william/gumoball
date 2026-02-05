@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  gumboball:
+    build: .
+    container_name: gumboball-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    restart: unless-stopped
+    volumes:
+      # Mount fonts directory if using custom fonts
+      - ./public/fonts:/app/public/fonts:ro

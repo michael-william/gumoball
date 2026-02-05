@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3103 536" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-15190,-8943.11)">
+        <g transform="matrix(6.76212,0,0,6.76212,15004.6,8533.06)">
+            <g id="gumbos-left" serif:id="gumbos left" transform="matrix(1,0,0,1,-7.00028,-39.5662)">
+                <g transform="matrix(0.292103,0,0,0.292103,-13.3065,133.149)">
+                    <g transform="matrix(39.9698,0,0,39.9698,483.699,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:39.97px;fill:rgb(255,227,59);">3 GUMB<tspan x="339.368px 376.34px " y="157.7px 157.7px ">OS</tspan> 1:1</text>
+                </g>
+                <g transform="matrix(0.292103,0,0,0.292103,104.42,133.149)">
+                    <g transform="matrix(39.9698,0,0,39.9698,483.699,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:39.97px;fill:rgb(255,227,59);">4 GUMB<tspan x="339.368px 376.34px " y="157.7px 157.7px ">OS</tspan> 5:1</text>
+                </g>
+                <g transform="matrix(0.292103,0,0,0.292103,221.692,133.149)">
+                    <g transform="matrix(39.9698,0,0,39.9698,508.36,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:39.97px;fill:rgb(255,227,59);">5 GUMB<tspan x="339.368px 376.34px " y="157.7px 157.7px ">OS</tspan> 1<tspan x="440.412px 467.591px " y="157.7px 157.7px ">5:</tspan>1</text>
+                </g>
+                <g transform="matrix(0.292103,0,0,0.292103,346.541,133.149)">
+                    <g transform="matrix(39.9698,0,0,39.9698,510.878,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:39.97px;fill:rgb(255,227,59);">6 GUMB<tspan x="339.368px 376.34px " y="157.7px 157.7px ">OS</tspan> 35:1</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(6.76212,0,0,6.76212,15004.6,8533.06)">
+            <g id="Gumbo-slam-left" serif:id="Gumbo slam left" transform="matrix(1,0,0,1,-22.858,-69.6883)">
+                <g transform="matrix(39.9698,0,0,39.9698,397.884,157.7)">
+                </g>
+                <text x="162.062px" y="157.7px" style="font-family:'Phosphate-Inline', 'Phosphate';font-size:39.97px;fill:rgb(255,227,59);stroke:rgb(165,110,148);stroke-width:0.15px;">GUMB<tspan x="267.542px 297.12px " y="157.7px 157.7px ">O </tspan>SL<tspan x="342.126px 367.147px " y="157.7px 157.7px ">AM</tspan></text>
+            </g>
+        </g>
+    </g>
+</svg>

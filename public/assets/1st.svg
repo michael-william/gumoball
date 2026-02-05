@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 542 737" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-18488,-4347.94)">
+        <g transform="matrix(6.76212,0,0,6.76212,15004.6,1853.44)">
+            <g transform="matrix(1,0,0,1,-1.43711,0)">
+                <g transform="matrix(0.761528,0,0,0.761528,412.213,357.738)">
+                    <g transform="matrix(39.9698,0,0,39.9698,189.242,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:39.97px;fill:rgb(255,227,59);">1</text>
+                </g>
+                <g transform="matrix(0.457425,0,0,0.457425,480.188,393.917)">
+                    <g transform="matrix(31.5156,0,0,31.5156,199.408,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:31.516px;fill:rgb(255,227,59);">S<tspan x="182.579px " y="157.7px ">T</tspan></text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(6.76212,0,0,6.76212,15004.6,1853.44)">
+            <g id="roux" transform="matrix(1,0,0,1,352.022,233.122)">
+                <g transform="matrix(32,0,0,32,242.478,157.7)">
+                </g>
+                <text x="162.062px" y="157.7px" style="font-family:'Phosphate-Inline', 'Phosphate';font-size:32px;fill:rgb(255,227,59);stroke:rgb(165,110,148);stroke-width:0.15px;">roux</text>
+            </g>
+        </g>
+    </g>
+</svg>

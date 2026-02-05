@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GumboBall Tally</title>
+    <link rel="stylesheet" href="/css/tally.css">
+</head>
+<body>
+    <div class="tally-container">
+        <!-- Header / Analytics Section -->
+        <div class="analytics-header">
+            <!-- Left Side Stats -->
+            <div class="stats-group stats-left">
+                <div class="stat-item">
+                    <span class="stat-label">Streak:</span> <span class="stat-value" id="streak">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Gumbo Step:</span> <span class="stat-value" id="gumboStep">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Gumbo Time:</span> <span class="stat-value" id="gumboTimes">0</span>
+                </div>
+            </div>
+
+            <!-- Right Side Stats -->
+            <div class="stats-group stats-right">
+                <div class="stat-item">
+                    <span class="stat-label">Hard:</span> <span class="stat-value" id="hardPercent">0</span><span class="stat-unit">%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Avg. Streak:</span> <span class="stat-value" id="avgStreak">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Max Slam:</span> <span class="stat-value" id="maxGumboSlams">0</span>
+                </div>
+            </div>
+
+             <!-- Seven Out Flash (Keep generic positioning or move) -->
+             <div class="seven-out-flash" id="sevenOutFlash"></div>
+        </div>
+
+        <!-- Grid Container -->
+        <div class="grid-container">
+            <!-- Left Side (Cols 1-3) -->
+            <div class="gumbo-slam-left">
+                <!-- <div class="stat-label">Gumbo Slam</div> -->
+                <img src="/assets/GumboBall Slam.svg" alt="">
+            </div>
+            <div class="gumbo-time-left">
+                <!-- <div class="stat-label">Gumbo Time</div> -->
+                <img src="/assets/Gumbo Time.svg" style="width: 50%;" alt="">
+            </div>
+            <div class="snake-eyes">
+                <!-- <div class="stat-label">Snake Eyes</div> -->
+                <img src="/assets/Snake Eyes.png" style="max-height:50%">
+            </div>
+            <div class="hard-four">
+                <!-- <div class="stat-label">Hard Four</div> -->
+                <img src="/assets/Hard Four.png" style="max-height:50%">
+            </div>
+            <div class="hard-six">
+                <!-- <div class="stat-label">Hard Six</div> -->
+                <img src="/assets/Hard Six.png" style="max-height:50%">
+            </div>
+            <div class="two-or-five">
+                <!-- <div class="stat-label">2 or 5</div> -->
+                <img src="/assets/2or5.svg" style="max-height:60%">
+            </div>
+            <div class="three-or-four">
+                <!-- <div class="stat-label">3 or 4</div> -->
+                <img src="/assets/3or4.svg" style="max-height:60%">
+            </div>
+            <div class="six">
+                <!-- <div class="stat-label">6</div> -->
+                <img src="/assets/6.svg" style="max-height:40%">
+            </div>
+
+            <!-- Center (Cols 4-7) -->
+            <div class="board-title">
+                <img src="/assets/GumboBall Logo.svg" style="max-height:90%">
+            </div>
+            <div class="seven-out">
+                <!-- <div class="stat-label">Seven Out</div> -->
+                <img src="/assets/Seven Out.svg" style="max-height:27%">
+            </div>
+            <div class="roux" id="stepRoux">
+                <!-- <div class="stat-label">Roux</div> -->
+                <img src="/assets/1st.svg" style="max-height:55%">
+            </div>
+            <div class="step-2nd" id="step2nd">
+                <img src="/assets/2nd.svg" style="max-height:65%">
+            </div>
+            <div class="step-3rd" id="step3rd">
+                <img src="/assets/3rd.svg" style="max-height:65%">
+            </div>
+            <div class="step-4th" id="step4th">
+                <img src="/assets/4th.svg" style="max-height:65%">
+            </div>
+
+            <!-- Right Side (Cols 8-10) -->
+            <div class="gumbo-slam-right">
+                <img src="/assets/GumboBall Slam.svg" alt="">
+            </div>
+            <div class="gumbo-time-right">
+                <img src="/assets/Gumbo Time.svg" style="width: 50%;" alt="">
+            </div>
+            <div class="hard-eight">
+                <img src="/assets/Hard Eight.png" style="max-height:50%">
+            </div>
+            <div class="hard-ten">
+                <img src="/assets/Hard Ten.png" style="max-height:50%">
+            </div>
+            <div class="box-cars">
+                <img src="/assets/Box Cars.png" style="max-height:50%">
+            </div>
+            <div class="eight">
+                <img src="/assets/8.svg" style="max-height:40%">
+            </div>
+            <div class="ten-or-eleven">
+                <img src="/assets/10or11.svg" style="max-height:60%">
+            </div>
+            <div class="nine-or-twelve">
+                <img src="/assets/9or12.svg" style="max-height:60%">
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/tally.js"></script>
+</body>
+</html>

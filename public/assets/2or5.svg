@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 645 517" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-15322,-4580.76)">
+        <g transform="matrix(6.76212,0,0,6.76212,15004.6,1853.44)">
+            <g transform="matrix(1,0,0,1,1.13583,1.09795)">
+                <g transform="matrix(1.57045,0,0,1.57045,-149.49,229.722)">
+                    <g transform="matrix(37.3567,0,0,37.3567,187.465,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:37.357px;fill:rgb(255,227,59);">5</text>
+                </g>
+                <g transform="matrix(1.57045,0,0,1.57045,-169.403,199.973)">
+                    <g transform="matrix(9.33917,0,0,9.33917,177.322,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:9.339px;fill:rgb(255,227,59);">OR</text>
+                </g>
+                <g transform="matrix(1.57045,0,0,1.57045,-210.352,199.973)">
+                    <g transform="matrix(37.3567,0,0,37.3567,187.465,157.7)">
+                    </g>
+                    <text x="162.062px" y="157.7px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:37.357px;fill:rgb(255,227,59);">2</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

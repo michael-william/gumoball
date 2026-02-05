@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GumboBall Manager</title>
+    <link rel="stylesheet" href="/css/manager.css">
+</head>
+<body>
+    <div class="manager-container">
+        <header>
+            <h1>GumboBall Manager</h1>
+        </header>
+
+        <div class="game-controls">
+            <button id="startGameBtn" class="btn btn-primary">Start New Game</button>
+        </div>
+
+        <div class="dice-selector">
+            <h2>Select Dice</h2>
+            <div class="dice-grid">
+                <div class="dice-column">
+                    <div class="dice-item" data-value="1">
+                        <div class="die">⚀</div>
+                    </div>
+                    <div class="dice-item" data-value="3">
+                        <div class="die">⚂</div>
+                    </div>
+                    <div class="dice-item" data-value="5">
+                        <div class="die">⚄</div>
+                    </div>
+                </div>
+                <div class="dice-column">
+                    <div class="dice-item" data-value="2">
+                        <div class="die">⚁</div>
+                    </div>
+                    <div class="dice-item" data-value="4">
+                        <div class="die">⚃</div>
+                    </div>
+                    <div class="dice-item" data-value="6">
+                        <div class="die">⚅</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="selected-display">
+                <div class="selected-die" id="selectedDie1">-</div>
+                <div class="plus">+</div>
+                <div class="selected-die" id="selectedDie2">-</div>
+                <div class="equals">=</div>
+                <div class="selected-sum" id="selectedSum">-</div>
+            </div>
+
+            <button id="enterBtn" class="btn btn-enter" disabled>Enter</button>
+        </div>
+
+        <div class="game-status">
+            <div class="status-item">
+                <span class="status-label">Streak:</span>
+                <span class="status-value" id="statusStreak">0</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Gumbo Step:</span>
+                <span class="status-value" id="statusGumboStep">0</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Gumbo Times:</span>
+                <span class="status-value" id="statusGumboTimes">0</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Throws:</span>
+                <span class="status-value" id="statusThrowCount">0</span>
+            </div>
+        </div>
+
+        <div class="game-controls">
+            <button id="endGameBtn" class="btn btn-secondary">End Game</button>
+        </div>
+
+        <div class="feedback-flash" id="feedbackFlash"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/manager.js"></script>
+</body>
+</html>
