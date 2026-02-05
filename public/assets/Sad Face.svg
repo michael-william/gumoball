@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face Circle -->
+  <circle cx="50" cy="50" r="45" fill="#FFE33B" stroke="#2A2A72" stroke-width="4"/>
+  
+  <!-- Eyes -->
+  <circle cx="35" cy="40" r="5" fill="#2A2A72"/>
+  <circle cx="65" cy="40" r="5" fill="#2A2A72"/>
+  
+  <!-- Eyebrows (Sad slanted) -->
+  <path d="M 28 30 Q 35 25 42 30" stroke="#2A2A72" stroke-width="3" fill="none"/>
+  <path d="M 58 30 Q 65 25 72 30" stroke="#2A2A72" stroke-width="3" fill="none"/>
+  
+  <!-- Mouth (Sad curve) -->
+  <path d="M 30 75 Q 50 55 70 75" stroke="#2A2A72" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

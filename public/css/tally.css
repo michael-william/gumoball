@@ -119,8 +119,9 @@ body {
     color: rgb(255, 227, 59);
     border-radius: 20px 0px 0px 0px;
     outline: 2px solid rgba(255, 227, 59, 1);
+    margin-left: 2px;
     border-top: 2px solid rgba(255, 227, 59, 1);
-    border-left: 4px solid rgba(255, 227, 59, 1);
+    border-left: 2px solid rgba(255, 227, 59, 1);
     border-right: 2px solid rgba(255, 227, 59, 1);
 
 }
@@ -226,8 +227,9 @@ body {
     color: rgb(255, 227, 59);
     border-top: 2px solid rgba(255, 227, 59, 1);
     outline: 2px solid rgba(255, 227, 59, 1);
-    border-right: 4px solid rgba(255, 227, 59, 1);
+    border-right: 2px solid rgba(255, 227, 59, 1);
     border-left: 2px solid rgba(255, 227, 59, 1);
+    margin-right: 2px
 
 }
 
@@ -301,7 +303,73 @@ body {
 
 /* Step Highlighting */
 .highlighted {
-    background-color: rgba(0, 255, 0, 0.3) !important;
-    box-shadow: inset 0 0 20px rgba(0, 255, 0, 0.6);
+    background-color: rgba(210, 38, 240, 0.3) !important;
+    box-shadow: inset 0 0 20px rgba(210, 38, 240, 0.3);
     transition: all 0.3s ease;
+}
+
+/* Temporary Dice Roll Highlight */
+.highlight-temp {
+    background-color: rgba(0, 255, 0, 0.5) !important;
+    box-shadow: inset 0 0 30px rgba(0, 255, 0, 0.8);
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.highlight-temp-bad {
+    background-color: rgba(255, 60, 0, 0.5) !important;
+    box-shadow: inset 0 0 30px rgba(255, 60, 0, 0.5);
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Gumbo Time Flash Animation */
+@keyframes gumboFlash {
+
+    0%,
+    100% {
+        background-color: transparent;
+    }
+
+    50% {
+        background-color: rgba(0, 255, 0, 0.8);
+        box-shadow: inset 0 0 50px rgba(0, 255, 0, 1);
+    }
+}
+
+.gumbo-time-flash {
+    animation: gumboFlash 0.5s ease-in-out 3;
+    /* Flash 3 times */
+}
+
+
+
+/* Red Highlight for Seven Out */
+.highlight-red {
+    background-color: rgba(255, 0, 0, 0.5) !important;
+    box-shadow: inset 0 0 30px rgba(255, 0, 0, 0.8);
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Sad Face Animation */
+.sad-face-container {
+    position: absolute;
+    top: -100%;
+    /* Start off-screen */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40vh;
+    height: 40vh;
+    z-index: 100;
+    pointer-events: none;
+    transition: top 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* Bounce effect */
+}
+
+.sad-face-container.active {
+    top: 30%;
+    /* Drop to center-ish */
+}
+
+.sad-face-container img {
+    width: 100%;
+    height: 100%;
 }
